@@ -2,7 +2,7 @@
  * @Author: yongqing
  * @Date:   2019-07-15 11:19:16
  * @Last Modified by:   yongqing
- * @Last Modified time: 2019-07-16 18:37:30
+ * @Last Modified time: 2019-07-18 14:33:40
  */
 
 
@@ -78,7 +78,7 @@ class ReportController extends Controller {
 
         const res = await ctx.model.Report.create(data);
 
-        ctx.body = res
+        ctx.body = 'ok'
     }
 }
 
