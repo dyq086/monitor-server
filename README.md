@@ -68,7 +68,7 @@ $ mysql -u root -p
  npx sequelize db:migrate
 ```
 
-5、进入项目根路径 依次执行
+5、执行run
 
 ```
 ### Development
@@ -76,7 +76,7 @@ $ yarn run dev
 $ open http://localhost:7001/
 ```
 
-6)、后端配置大功告成
+6、后端配置大功告成
 
 
 
